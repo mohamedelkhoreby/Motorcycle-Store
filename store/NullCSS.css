@@ -1,0 +1,184 @@
+form {
+    background-image:url(pattern.jpg);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+
+    font-family: Bahnschrift Light;
+    text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color:rgb(255, 255, 255);
+}
+
+
+p {
+    font-family: Bahnschrift Light;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-family: Bahnschrift Light;
+    color:rgb(221, 195, 161);
+}
+
+label {
+    font-family: Bahnschrift Light;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(236, 236, 236);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    color:#E8B08C;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #F2F1F5;
+}
+
+.active {
+    background-color: rgb(221, 195, 161);
+    color: #F5F5F7;
+}
+
+input[type=text], input[type=password] {
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(221, 195, 161);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+  width: 300px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=password] {
+  width: 300px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  text-align: center;
+  width: 30%;
+}
+
+input[type=password]:focus {
+  text-align: center;
+  width: 30%;
+}
+input[type=number]:focus{
+  
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+h6{
+  color: rgb(221, 195, 161);
+  font-size: 30px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color:rgba(236, 232, 232, 0.829);
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  
+  width: 70%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+span{
+  margin: 70PX;
+  
+  font-size: 30px;
+ text-align: center; background-color: rgb(221, 195, 161); color:#f8f8f8; width: 50px; position: fixed; font-family:'Times New Roman', Times, serif;
+}
+h1{
+ width: 500px;
+  color: rgb(221, 195, 161);
+}
+p.price{
+color: black;
+}
+h4{
+  width: 100%;
+  font-size: 50px;
+  text-align: center; background-color: rgb(221, 195, 161); color:#f8f8f8; width: 50px; position: fixed; font-family:'Times New Roman', Times, serif;
+}
